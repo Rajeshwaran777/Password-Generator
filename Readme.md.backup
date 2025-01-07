@@ -1,0 +1,60 @@
+# Password Generator
+
+A simple and responsive web application that generates secure random passwords based on user-selected criteria such as length, inclusion of lowercase/uppercase letters, numbers, and symbols. The password strength is visually indicated as weak, medium, or strong based on its length.
+
+## Features
+
+- **Password Length Slider**: Adjust the length of the password dynamically.
+- **Customizable Options**: Enable or disable inclusion of lowercase letters, uppercase letters, numbers, and symbols.
+- **Password Strength Indicator**: Displays the strength of the generated password (Weak, Medium, or Strong).
+- **Clipboard Copy**: Copy the generated password to the clipboard with a single click.
+- **Real-time Updates**: Password and strength indicator update dynamically as options are changed.
+
+## Tech Stack
+
+- **HTML5**: Structure of the web application.
+- **CSS3**: Styling and responsive design.
+- **JavaScript**: Logic for password generation, strength evaluation, and interactivity.
+
+## Project Structure
+
+```
+.
+├── index.html       # Main HTML file
+├── style.css        # CSS file for styling
+├── script.js        # JavaScript file for functionality
+└── README.md        # Documentation
+```
+
+## How to Use
+
+1. Clone or download the repository.
+2. Open `index.html` in a web browser.
+3. Use the slider to select the desired password length.
+4. Toggle the checkboxes to include or exclude lowercase letters, uppercase letters, numbers, and symbols.
+5. Click on the **Generate Password** button to generate a random password.
+6. Copy the password by clicking the copy icon next to the password box.
+
+## File Descriptions
+
+### index.html
+- Contains the HTML structure of the password generator, including the input fields, buttons, and other UI elements.
+
+### style.css
+- Styles the password generator for a modern and clean look, with responsive design and hover effects.
+
+### script.js
+- Implements the core functionality of the password generator:
+  - Generating random passwords based on selected criteria.
+  - Displaying the password strength indicator.
+  - Copying passwords to the clipboard.
+
+## Demo
+You can view a live demo of the Password Generator by opening `index.html` in any modern browser or click here[Live Demo]().
+
+## License
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+Happy password generating! If you encounter any issues or have suggestions for improvement, feel free to contribute or open an issue.
